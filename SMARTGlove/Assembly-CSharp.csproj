@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AccuracyScripts\CalculateDistance.cs" />
      <Compile Include="Assets\Scripts\CreateAxis.cs" />
      <Compile Include="Assets\Scripts\CubeTracking.cs" />
      <Compile Include="Assets\Scripts\GraphView.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandlerModified.cs" />
      <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
@@ -137,7 +139,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/Drsk8/Documents/SMARTGlove/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/Drsk8/Documents/SMART-Glove-Unity/SMARTGlove/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

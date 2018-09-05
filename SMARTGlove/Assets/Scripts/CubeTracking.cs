@@ -9,6 +9,7 @@ public class CubeTracking : MonoBehaviour {
 	Vector3 startPos;
 	Vector3 pastPos;
 	Vector3 currentPos;
+	Vector3 shiftVec;
 	List<string> Data;
 	public static string currentFileName = "Data";
 	public InputField mInputField;

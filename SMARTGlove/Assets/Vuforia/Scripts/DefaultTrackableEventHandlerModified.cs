@@ -12,9 +12,13 @@ namespace Vuforia
     /// <summary>
     /// A custom handler that implements the ITrackableEventHandler interface.
     /// </summary>
-    public class DefaultTrackableEventHandler : MonoBehaviour,
+    public class DefaultTrackableEventHandlerModified : MonoBehaviour,
                                                 ITrackableEventHandler
     {	
+		#region PUBLIC_MEMBER_VARIABLES
+		public GameObject detectedNotifyPanel;
+		public GameObject notDetectedNotifyPanel;
+		#endregion
 
         #region PRIVATE_MEMBER_VARIABLES
         private TrackableBehaviour mTrackableBehaviour;
@@ -53,10 +57,14 @@ namespace Vuforia
                 newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
             {
                 OnTrackingFound();
+				detectedNotifyPanel.SetActive (true);
+				notDetectedNotifyPanel.SetActive (false);
             }
             else
             {
                 OnTrackingLost();
+				detectedNotifyPanel.SetActive (false);
+				notDetectedNotifyPanel.SetActive (true);
             }
         }
 

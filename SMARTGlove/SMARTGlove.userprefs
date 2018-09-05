@@ -1,8 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CubeTracking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AccuracyScripts\CalculateDistance.cs">
     <Files>
-      <File FileName="Assets\Scripts\CubeTracking.cs" Line="36" Column="47" />
+      <File FileName="Assets\Scripts\CubeTracking.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AccuracyScripts\CalculateDistance.cs" Line="8" Column="47" />
+      <File FileName="Assets\Scripts\GraphView.cs" Line="45" Column="3" />
+      <File FileName="Assets\Scripts\GridMesh.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
